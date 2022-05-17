@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Telefone | Máscara</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mascara, telefone, celular">
+    <meta name="author" content="Gehaime B.">
+    <meta name="description" content="mascara js de telefones">
+    <meta name="copyright" content="Gehaime B.">
+    <meta name="revised" content="Terça, Maio, 17Tr, 2022, 01:40 am">
+    <meta name="designer" content="Gehaime B.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icons_telefone-48.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="col2-span-line-img_body">
+        <div class="col3-tel">
+            <img src="./img/icons-telefone.png" alt="telefone">
+        </div>
+        <div class="container">
+            <div class="label-col2">
+                <label>Digite seu número</label>
+            </div>
+
+            <div class="img-col2">
+                <img src="./img/icons_telefone-48.png" alt="telefone">
+            </div>
+            <form id="login" onsubmit="process(event)">
+                <input id="phone" type="tel" name="phone" class="tel-mask" title="Digite seu número" required />
+                <input type="submit" id="btn-enviar" name="button-enviar" class="btn" value="Verificar" title="Clique para verificar"/>
+            </form><br>
+            <div class="alert alert-info" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="./js/index.js" async defer></script>
+
+</body>
+
+</html>

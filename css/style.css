@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #033E3E;
+}
+
+div.col2-span-line-img_body{
+    border: 2px solid transparent;
+    height: 6rem;
+    width: 31rem;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+div.label-col2 {
+    font-size: 19px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.img-col2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    border: 4px solid #ffa05c;
+    width: 30rem;
+    height: 14rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 4px;
+    line-height: 2rem;
+    background-color: #F8B88B;
+}
+
+form[id='login'] {
+    border: 2px solid transparent;
+    margin-top: 3rem;
+}
+
+input[type='tel'] {
+    width: 15rem;
+    height: 2.3rem;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid #000;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    font-size: 1rem;
+    font-weight: 800;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    background-color: #F8B88B;
+}
+
+input[type='tel']:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input[type='submit'] {
+    height: 2.3rem;
+    width: 7rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid #008B8B;
+    background-color: #008B8B;
+    color: #fff;
+}
+
+input[type='submit']:active {
+    background-color: #463E3F;
+    border: 2px solid #463E3F;
+}
